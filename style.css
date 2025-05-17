@@ -1,0 +1,221 @@
+body {
+  background-image: url("https://media.discordapp.net/attachments/1282772432133951521/1372706247148834907/www1234.png?ex=68286890&is=68271710&hm=8e936ae47c686da86b808d2b031bbd5948292eb9322aeb05038683bd00f3a670&=&format=webp&quality=lossless");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: rgba(0, 51, 102, 0.8);
+  color: #ff9606;
+  padding: 20px 20px 10px;
+  border-bottom: 5px solid #ff9606;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.logo-lateral {
+  position: absolute;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  margin-top: 60px;
+  padding-top: 40px;
+
+  object-fit: contain;
+}
+
+.header-container h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 51, 102, 0.95);
+  z-index: 1000;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #ff9606;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #ff9606;
+  color: #003366;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+section h2 {
+  color: #003366;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+strong {
+  color: #003366;
+}
+
+.integrantes-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.membro {
+  text-align: center;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.membro:hover {
+  transform: translateY(-10px);
+}
+
+.membro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #003366;
+  display: block;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+}
+
+.membro h3 {
+  margin-top: 15px;
+  color: #003366;
+  font-size: 18px;
+}
+
+.membro p {
+  font-size: 14px;
+  color: #444;
+  margin: 15px 0;
+}
+
+.membro a {
+  text-decoration: none;
+  color: #ff9606;
+  font-weight: 600;
+  margin: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.membro a:hover {
+  color: #003366;
+}
+
+#tarefas table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#tarefas th,
+#tarefas td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+#tarefas th {
+  background-color: #003366;
+  color: #fff;
+}
+
+#tarefas td {
+  color: #333;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sobre-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff9606;
+  color: #003366;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #e69500;
+}
